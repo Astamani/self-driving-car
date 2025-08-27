@@ -24,9 +24,8 @@ class Controls {
 
         case "ArrowDown":
           this.reverse = true;
-        break
+          break;
       }
-      console.table(this);
     };
     document.onkeyup = (event) => {
       switch (event.key) {
@@ -46,7 +45,6 @@ class Controls {
           this.reverse = false;
           break;
       }
-      console.table(this);
     };
   }
 }
